@@ -11,10 +11,10 @@ INSERT INTO
         status_id,
         date_allocated,
         purchase_order_id,
-        inventory_id.
+        inventory_id
     )
 VALUES (
-        NULL
+        NULL,
         69,
         80,
         5.0000,
@@ -23,5 +23,5 @@ VALUES (
         2,
         NULL,
         NULL,
-        129.
+        129
     )
