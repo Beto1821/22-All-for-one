@@ -1,9 +1,8 @@
--- Active: 1660079668896@@127.0.0.1@3306@northwind
-SELECT id, supplier_id
+-- Active: 1660079668896@@127.0.0.1@3306@northwindSELECT *
+
+SELECT *
 FROM
     northwind.purchase_orders
 WHERE
-    supplier_id = 1
-    OR supplier_id = 3
-    OR supplier_id = 5
-    OR supplier_id = 7
+    supplier_id = 3
+    AND status_id = 2;
